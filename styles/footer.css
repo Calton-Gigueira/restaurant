@@ -1,0 +1,94 @@
+:root {
+  --font-base: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  --font-alt: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  --color-golden: #dcca87;
+  --color-black: #0c0c0c;
+  --color-gray: #545454;
+  --color-crimson: #f5efdb;
+  --color-grey: #aaa;
+  --color-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: var(--color-black);
+  color: var(--color-white);
+  padding: 0 10%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+footer span {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  font-family: var(--font-alt);
+}
+
+.footer__first {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.footer__contact_us h3,
+.footer__media h3,
+.footer__working__hours h3 {
+  font-family: var(--font-alt);
+  color: var(--color-golden);
+  margin-bottom: 20px;
+}
+
+.footer__contact_us,
+.footer__media,
+.footer__working__hours {
+  width: 300px;
+}
+
+.footer__media h3 {
+  font-family: var(--font-alt);
+  text-transform: uppercase;
+  font-size: 30px;
+  border-top: 5px solid var(--color-golden);
+  border-bottom: 5px solid var(--color-golden);
+  display: inline-block;
+}
+
+.footer__media p {
+  font-family: var(--font-base);
+}
+
+.footer__media section {
+  margin-top: 30px;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+
+  color: var(--color-golden);
+}
+
+.footer__media a {
+  color: #fff;
+  font-size: 25px;
+}
+
+.footer__second p {
+  font-family: var(--font-base);
+}

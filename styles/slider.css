@@ -1,0 +1,64 @@
+:root {
+  --font-base: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  --font-alt: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  --color-golden: #dcca87;
+  --color-black: #0c0c0c;
+  --color-gray: #545454;
+  --color-crimson: #f5efdb;
+  --color-grey: #aaa;
+  --color-white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: var(--color-black);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10%;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-base);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  transition: all 1s ease;
+  overflow: hidden;
+  z-index: 100;
+}
+
+.navbar .logo {
+  text-transform: uppercase;
+  font-family: var(--font-alt);
+  color: var(--color-golden);
+  font-weight: 800;
+  font-size: 2rem;
+  border-top: 5px solid var(--color-golden);
+  border-bottom: 5px solid var(--color-golden);
+  cursor: default;
+}
+
+.navbar a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.navbar .navbar__links {
+  list-style: none;
+  display: flex;
+}

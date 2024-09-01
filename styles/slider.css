@@ -29,6 +29,11 @@ header {
   background-color: var(--color-black);
   color: var(--color-white);
   font-family: var(--font-base);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .navbar {
@@ -61,4 +66,11 @@ header {
 .navbar .navbar__links {
   list-style: none;
   display: flex;
+}
+
+.slides {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

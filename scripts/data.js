@@ -3,27 +3,27 @@
 export const wineBeers = [
   {
     drinkName: 'Chapel Hill Shiraz',
-    drinkPrice: 56,
+    drinkPrice: '1000',
     drinkP: 'AU | Bottle',
   },
   {
     drinkName: 'Catena Malhee',
-    drinkPrice: 59,
+    drinkPrice: '650',
     drinkP: 'AU | Bottle',
   },
   {
     drinkName: 'La View Rose',
-    drinkPrice: 44,
+    drinkPrice: '1500',
     drinkP: 'FR | 750 MI',
   },
   {
     drinkName: 'Rhino Pale Ale',
-    drinkPrice: 31,
+    drinkPrice: '800',
     drinkP: 'CA | 750 MI',
   },
   {
     drinkName: 'Irish Guinness',
-    drinkPrice: 26,
+    drinkPrice: '1200',
     drinkP: 'CA | 750 MI',
   },
 ];
@@ -31,27 +31,27 @@ export const wineBeers = [
 export const cocktails = [
   {
     drinkName: 'Aperol Sprtiz',
-    drinkPrice: 20,
+    drinkPrice: '700',
     drinkP: 'CA | 750 MI',
   },
   {
     drinkName: "Dark 'N' Stormy",
-    drinkPrice: 16,
+    drinkPrice: '555',
     drinkP: 'CA | 750 MI',
   },
   {
     drinkName: 'Daiquiri',
-    drinkPrice: 10,
+    drinkPrice: '1100',
     drinkP: 'CA | 750 MI',
   },
   {
     drinkName: 'Old Fashioned',
-    drinkPrice: 31,
+    drinkPrice: '900',
     drinkP: 'CA | 750 MI',
   },
   {
     drinkName: 'Negroni',
-    drinkPrice: 26,
+    drinkPrice: '650',
     drinkP: 'CA | 750 MI',
   },
 ];

@@ -58,7 +58,7 @@ const generateDrinks = (array, sect) => {
 
     const span = document.createElement('span');
     span.classList.add('drink__price');
-    span.textContent = `$${drink.drinkPrice}`;
+    span.textContent = `${drink.drinkPrice} MT`;
 
     const p = document.createElement('p');
     p.textContent = `${drink.drinkP}`;

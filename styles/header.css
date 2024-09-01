@@ -116,6 +116,7 @@ header {
 
 .header__main__section--1 p {
   margin-bottom: 20px;
+  max-width: 550px;
 }
 
 .btn {
@@ -146,6 +147,13 @@ header {
 
 .header__main__section--2 img:hover {
   opacity: 0.5;
+}
+
+.main__about__history p,
+.main__chef__word--word p,
+.main__foods--slider--info p,
+.main__find__us--info p {
+  max-width: 550px;
 }
 
 .main_know_more_btn--right {
